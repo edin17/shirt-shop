@@ -1,0 +1,225 @@
+.App{
+  font-size: 20px;
+}
+
+header{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 122, 238);
+  color: white;
+}
+.links{
+  margin-right: 10px;
+}
+.ti{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+h1{
+  margin-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+main{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 2%;
+
+}
+footer{
+  background-color: rgb(47, 47, 47);
+  color:white;
+  text-align: center;
+  align-items: center;
+  
+}
+footer>h3{
+  color: white;
+}
+.menu{
+  width: 300px;
+  height: 500px;
+  background-color: rgb(20, 122, 238);
+  position: absolute;
+  top: 13%;
+}
+.item{
+display: inline-block;
+margin-left: 3%;
+margin-right:3%;
+border: 1px solid rgb(240, 240, 240);
+cursor: pointer;
+}
+.home-image{
+  width: 300px;
+  height: 350px;
+}
+.item-info{
+  float: left;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+}
+p{
+  margin: 0;
+  color: black;
+}
+#root{
+  height: 100%;
+}
+.fotka{
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(20, 122, 238);
+  margin-left: 1.5%;
+  width: auto;
+  height: auto;
+}
+.item-details{
+  text-align: left;
+  display: flex;
+}
+.basic-info{
+  margin-left: 30px;
+  width: 30%;
+  display: inline-block;
+}
+
+h3{
+  color: black;
+}
+.slika{
+  width: 500px;
+  height: 500px;
+  margin-left: 1%;
+}
+.stars{
+  color: rgb(243, 227, 0);
+  margin: 0;
+}
+.options{
+  text-align: center;
+  width: 35%;
+  height: 100%;
+  background-color: rgb(20, 122, 238,0.5);
+  margin-left: 3%;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 11px 33px 0px rgba(66,66,66,0.89);
+  -moz-box-shadow: 10px 11px 33px 0px rgba(66,66,66,0.89);
+  box-shadow: 10px 11px 33px 0px rgba(66,66,66,0.89);
+  align-self: center;
+}
+
+form{
+  display: inline-flex;
+}
+.options>input{
+  height: 20px;
+  
+  width: 35px;
+}
+.q{
+  display: inline-flex;
+  margin: 0;
+}
+button{
+  margin-bottom: 20px;
+}
+.signin-box{
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgb(20, 122, 238,0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  
+
+}
+.signin-box>form{
+  display: block;
+}
+.signin-box>form>input{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 30px;
+}
+.signin-box>h3,.signin-box>p{
+  color: white;
+}
+.signin-link{
+  color: white;
+  display: inline;
+  
+}
+.cart{
+  position: relative;
+  right: 15%;
+}
+.cart-div{
+  background-color: rgb(20, 122, 238,0.78);
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+  left: 5%;
+  color:white;
+  
+}
+.cart-div>h4,.cart-div>img,.cart-div>div>h4{
+  display: inline;
+  margin-left: 4%;
+  margin-left: 4%;
+}
+.AddProduct{
+  background-color: rgb(20, 122, 238);
+  width: 40%;
+  position: relative;
+  left: 30%;
+  margin-bottom: 20px;
+  color: white;
+}
+.product-form{
+  display: block;
+}
+.input-product{
+  width: 20%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.submit-btn{
+  background-color: rgb(20, 122, 238);
+  border:none;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .options{
+    display:block;
+    width: 90%;
+    
+  }
+  .item-details{
+    display: block;
+    
+  }
+  .slika{
+    width: 100px;
+    height: 100px;
+    display: none;
+  }
+  .basic-info{
+    width: 90%;
+  }
+  .signin-box{
+    width: 90%;
+  }
+}
+
+
